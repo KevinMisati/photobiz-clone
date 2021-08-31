@@ -1,7 +1,14 @@
+.footer-container{
+    background: yellow;
+}
+footer *{
+overflow: hidden;
+}
+
 footer{
 display: flex;
 width: 100%;
-height: 348px;
+height: 384px;
 color: #fff;
 font-family: gotham;
 }
@@ -10,7 +17,7 @@ background: #364659;
 flex-basis: 350px;
 text-align: left;
 padding: 35px 25px 25px;
-height: auto;
+height: 100%;
 }
 .logo-container img{
     width: 150px;
@@ -90,7 +97,7 @@ line-height: 18px;
     display: none;
 }
 .join-blog form {
-    width: 100%;
+width: 100%;
 border: 1px solid #7c8994;
 padding: 0px 0px 0px 10px;
 display: flex;
@@ -123,12 +130,20 @@ padding: 10px 10px 10px 10px;
     font-size: 25px;
 
 }
+.join-blog p{
+    
+    white-space: normal;
+    width: 200px;
+    
+}
 
 
 @media screen and (max-width:767px){
     footer {
         flex-direction: column;
         height: auto;
+        width: 100%;
+        max-width: 100%;
     }
     footer h3 {
         padding: 0;
@@ -144,6 +159,7 @@ padding: 10px 10px 10px 10px;
     .right-section{
         flex-direction: column;
         padding:15px 0;
+        overflow: hidden;
     }
     .menu-item{
         
@@ -158,7 +174,7 @@ padding: 10px 10px 10px 10px;
     border-bottom: 1px solid #354959;
     position: relative;
      padding: 12px 20px; 
-
+    overflow: hidden;
 
 }
 .menu-item ul{
@@ -199,13 +215,19 @@ padding: 10px 10px 10px 10px;
     text-align: left;
     justify-content: left;
     align-items: flex-start;
+    overflow:hidden;
+    
 }
 .join-blog input {
     width: auto;
     flex: 1;
 
 }
+.join-blog p{
+    width: auto;
+}
 footer p{
     font-size: 11px;
+    
 }
 }
