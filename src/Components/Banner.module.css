@@ -1,0 +1,101 @@
+.banner{
+text-align: center;
+overflow: hidden;
+position: relative;
+height: 84vh!important;
+background-color: #02A6E5;
+background-image: url("https://photobiz.com/content/corporate/photobiz/images/PhotoBiz-Homepage-mar2021.jpg");
+background-size: contain;
+background-position: right;
+background-repeat: no-repeat;
+background-attachment: scroll;
+font-family: gotham;
+}
+.banner-text-container{
+    font-family: Brandon;
+text-align: center;
+height: 84vh;
+background: linear-gradient(90deg, rgba(0, 0, 0, 0.84) 0%, rgba(0,0,0,1.7245273109243697) 1%, rgba(0,0,0,0) 100%);
+position: relative;
+width: 35%;
+
+}
+.banner-text{
+padding: 25px;
+width: 100%;
+text-align: center;
+position: absolute;
+top: 49%;
+display: inline-block;
+transform: translateY(-49%);
+left: 0px;
+color: #fff;
+}
+.banner-text h1 {
+    text-align: center;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+
+font-weight: 500;
+margin: 15px auto;
+font-size: 40px!important;
+color: #fff;
+}
+.banner-text span {
+    text-align: center;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+font-family: gotham;
+margin: 10px auto;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size: 15px;
+font-weight: 500;
+color: #fff;
+}
+.btn {
+    text-align: center;
+font-weight: 500;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+text-decoration: none;
+padding: 1.2em 1.2em 1em!important;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 12px;
+color: white!important;
+transition: 0.3s;
+font-family: gotham;
+border-radius: 0px;
+border: 0px solid!important;
+margin: 10px;
+background: #364659!important;
+}
+.started-btn{
+background: #e14f22!important;
+}
+@media screen and (max-width:767px){
+    .banner{
+        background-position: 92% 100% !important;
+    }
+    .banner-text-container{
+        width: 100%;
+        }
+        .banner-text h1{
+        text-align: center;
+        font-family: gotham;
+        font-weight: 400;
+        font-size: 30px!important;
+    
+        }
+        .banner-text span {
+            font-size: 12px;
+            text-align: center;
+            margin: 10px auto;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-weight: 400;
+
+
+        }
+}
