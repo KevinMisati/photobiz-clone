@@ -68,7 +68,7 @@ const Footer = () => {
                             <li>what is photobiz</li>
                             <li>pricing</li>
                         </ul>
-                        <button name={"photobiz"} onClick={togglePhotoBiz}>+</button>
+                        <button className={classes["plus-btn"]} name={"photobiz"} onClick={togglePhotoBiz}>+</button>
                     </div>
                     <div className={`${classes["menu-item"]} ${isMenuOpen.platform ? classes["menu-list-open"] : ""}`}>
                         <h3>platform</h3>
@@ -77,7 +77,7 @@ const Footer = () => {
                             <li>domain + email</li>
                             <li>proofing only</li>
                         </ul>
-                        <button onClick={togglePlatform}>+</button>
+                        <button className={classes["plus-btn"]} onClick={togglePlatform}>+</button>
                     </div>
                     <div className={`${classes["menu-item"]} ${isMenuOpen.services ? classes["menu-list-open"] : ""}`}>
                         <h3>services</h3>
@@ -86,7 +86,7 @@ const Footer = () => {
                             <li>custom site design</li>
                             <li>website jumpstart</li>
                         </ul>
-                        <button onClick={toggleServices}>+</button>
+                        <button className={classes["plus-btn"]} onClick={toggleServices}>+</button>
                     </div>
                     <div className={`${classes["menu-item"]} ${isMenuOpen.profession ? classes["menu-list-open"] : ""}`}>
                         <h3>profession</h3>
@@ -95,7 +95,7 @@ const Footer = () => {
                             <li>seniors</li>
                             <li>newborns</li>
                         </ul>
-                        <button onClick={toggleProfession}>+</button>
+                        <button className={classes["plus-btn"]} onClick={toggleProfession}>+</button>
                     </div>
                     <div className={`${classes["menu-item"]} ${isMenuOpen.education ? classes["menu-list-open"] : ""}`}>
                         <h3>education</h3>
@@ -104,7 +104,7 @@ const Footer = () => {
                             <li>personal coaching</li>
                             <li>workshops</li>
                         </ul>
-                        <button  onClick={toggleEducation}>+</button>
+                        <button className={classes["plus-btn"]}  onClick={toggleEducation}>+</button>
                     </div>
                     <div className={`${classes["menu-item"]} ${isMenuOpen.company ? classes["menu-list-open"] : ""}`}>
                         <h3>company</h3>
@@ -113,7 +113,7 @@ const Footer = () => {
                             <li>our team</li>
                             <li>careers</li>
                         </ul>
-                        <button onClick={toggleCompany}>+</button>
+                        <button className={classes["plus-btn"]} onClick={toggleCompany}>+</button>
                     </div>
                     <div className={`${classes["menu-item"]} ${classes["join-blog"]}`}>
                         <h3>join our blog</h3>
