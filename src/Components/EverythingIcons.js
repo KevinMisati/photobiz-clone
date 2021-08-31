@@ -7,6 +7,7 @@ const EverythingIcons = () => {
             <header>
                 <h3>EVERYTHING YOU NEED. TOGETHER IN ONE PLACE.</h3>
             </header>
+            <main>
             <div className={classes.icons}>
                 <div>
                     <img src="https://img.icons8.com/wired/64/000000/template.png" />
@@ -46,6 +47,7 @@ const EverythingIcons = () => {
                 </div>
 
             </div>
+            </main>
         </div>
     )
 }

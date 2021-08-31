@@ -22,33 +22,26 @@ font-size: 1.1rem;
 text-align: center;
 letter-spacing: 2px;
 }
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+   
+}
 .icons {
-    font-family: Brandon;
-color: #000;
-box-sizing: border-box;
--webkit-font-smoothing: antialiased;
-margin: 0;
-display: inline-block;
-max-width: 100%;
-white-space: nowrap;
+    width: auto;
+ margin: 0 auto;
 padding: 25px 0px 30px;
 margin-left: auto;
 text-align: right;
-vertical-align: -webkit-baseline-middle;
 display: flex;
-justify-content: center;
-width:100%;
 align-items: center;
 overflow-x: auto;
 }
 .icons>div{
-    font-family: Brandon;
-color: #000;
-white-space: nowrap;
 text-align: right;
-box-sizing: border-box;
--webkit-font-smoothing: antialiased;
-margin: 0;
 padding: 0px 30px;
 display: flex;
 flex-direction: column;
@@ -58,19 +51,17 @@ flex-direction: column;
     height: 50px;
 }
 .icons span {
-    white-space: nowrap;
+   
 text-align: center;
 cursor: pointer;
 box-sizing: border-box;
 -webkit-font-smoothing: antialiased;
 margin: 0;
 transition: opacity 0.35s, transform 0.35s;
-
 width: 100%;
 transform: translate3d(0,20px,0);
 text-transform: lowercase;
 letter-spacing: 2px;
-
 font-size: 11px;
 color: #7c8995;
 }
