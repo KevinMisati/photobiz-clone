@@ -11,9 +11,13 @@ const Banner = () => {
                             <br />
                                 Starting at $25/month annually
                                 <br /><br /><br />
+                            
+                        </span>
+                        <div className={classes["btns-container"]}>
                             <a href="#" className={`${classes.btn} `}>Learn More</a>
                             <a href="#" className={`${classes.btn} ${classes["started-btn"]} `}>Get Started</a>
-                            </span>
+                        </div>
+                            
                     </div>
                 </div>
             </div>

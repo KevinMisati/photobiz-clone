@@ -88,6 +88,10 @@ background: #e14f22!important;
         font-size: 30px!important;
     
         }
+        .banner-text h1{
+           font-size: 30px!important;
+    }
+   
         .banner-text span {
             font-size: 12px;
             text-align: center;
@@ -95,7 +99,9 @@ background: #e14f22!important;
             text-transform: uppercase;
             letter-spacing: 4px;
             font-weight: 400;
-
-
+        }
+        .btns-container{
+            display: flex;
+            flex-direction: column;
         }
 }
