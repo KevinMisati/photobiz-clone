@@ -2,8 +2,17 @@ import React,{useState} from 'react'
 import classes from "./MobileHeader.module.css"
 const MobileHeader = () => {
     const [navIsOpen, setNavIsOpen] = useState(false)
-    const openNav = () => { setNavIsOpen(true) }
-    const closeNav = () => {setNavIsOpen(false)}
+    const openNav = () => {
+        setNavIsOpen(true)
+        document.body.classList.toggle('lock-scroll');
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+    }
+    const closeNav = () => {
+        setNavIsOpen(false)
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+    }
     return (
         <div className={classes["mobile-header-container"]}>
             <div className={classes["mobile-header"]}>
@@ -18,9 +27,9 @@ const MobileHeader = () => {
                     <div></div>
                 </div>
             </div>
-            <div className={`${classes["nav-open-container"]} ${navIsOpen ? "" : classes["nav-toggle"] }`}>
+            <div data-aria-expanded="true" aria-hidden="true" className={`${classes["nav-open-container"]} ${navIsOpen ? "" : classes["nav-toggle"] }`}>
                 <div className={classes["nav-open"]}>
-                    <header>
+                    <header >
                         <div className={classes["logo-container"]}>
                             <img src="https://photobiz.com/content/corporate/photobiz/images/photobiz_minimal_logo.png" alt="logo" />
                         </div>
@@ -59,23 +68,3 @@ const MobileHeader = () => {
 }
 
 export default MobileHeader
-{/*  <ul className={classes["nav-items"]}>
-                        <li>websites</li>
-                        <li>proofing</li>
-                        <li>jumpstart</li>
-                        <li>custom site</li>
-                        <li>pricing</li>
-                    </ul> */}
-{/*  <div className={classes["account"]}>
-                        <a className={classes.btn} href="#">
-                            <span><i className={"fas fa-phone"}></i></span>
-                            <span className={classes.phone}>123456789123</span>
-
-                        </a>
-                        <a className={`${classes.btn} ${classes["signup-btn"]}`} href="#">
-                            sign up
-                        </a>
-                        <a className={`${classes.btn} ${classes["login-btn"]}`} href="#">
-                            login
-                        </a>
-                    </div> */}

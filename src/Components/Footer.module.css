@@ -1,5 +1,6 @@
 .footer-container{
     background: yellow;
+    height:auto;
 }
 footer *{
 
@@ -167,6 +168,7 @@ padding: 10px 10px 10px 10px;
         flex-direction: column;
         padding:15px 0;
         overflow: hidden;
+        margin: 0;
     }
     .menu-item{
         
