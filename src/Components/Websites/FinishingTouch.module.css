@@ -7,7 +7,7 @@ font-size: 2.2rem;
 max-width: 1130px;
 display: block;
 margin: 0 auto;
-padding: 100px 0 0;
+padding: 75px 0 0;
 
 }
 .finishing-touch-container h1{
@@ -19,6 +19,7 @@ color: #303d4c;
 }
 .suggested-products-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 40px 0;
@@ -69,4 +70,21 @@ padding: 1.2em 1.2em 1em;
 font-size: 14px;
 color: #fff;
 margin-top: 20px;
+}
+@media screen and (max-width:767px){
+    .suggested-products-container{
+        padding: 20px;
+        
+    }
+    .product-price-large{
+        display: none !important;
+    }
+    .price{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 40px; 
+    }
+    .product button{
+        margin-top: 10px;
+    }
 }

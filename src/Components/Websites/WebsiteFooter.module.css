@@ -126,3 +126,11 @@ outline: none;
 border: none;
 text-align: left;
 }
+@media screen and (max-width:767px){
+    .payment-form-container{
+        flex-direction: column;
+    }
+    .price label{
+        text-align: left;
+    }
+}

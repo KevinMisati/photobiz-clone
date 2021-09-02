@@ -3,6 +3,7 @@
      text-align: center;
      font-family: Brandon;
      line-height: 30px;
+    
 }
 .description h1{
 font-weight: 100;
@@ -22,4 +23,9 @@ color: #7d8995;
 color: #777;
 max-width: 900px;
 margin: 0 auto 10px;
+}
+@media screen and (max-width:767px){
+    .description{
+        padding: 0px 30px;
+    }
 }

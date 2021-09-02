@@ -16,7 +16,7 @@ const JumpstartAd = () => {
                 </p>
                 <p className={classes.desc}>That's why our team is here to help! If you want a hand building your new website, we will gladly construct it for you with <strong>PhotoBiz Jumpstart</strong>. Just give us a link to your current site or send over your words &amp; images. We'll place your content in one of our expertly designed templates. Jumpstart helps you launch in record speed so you can get back to doing what you love.</p>
 
-                <p className="watch-video">
+                <p className={classes["watch-video"]}>
                     <span class={classes["watch-video-text"]}>Learn More About Jumpstart</span>
                     <span className={classes["img-container"]} >
                         <img src="https://photobiz.com/content/images/corporate/photobiz/graphics/misc/Play_Button.png" alt="video" />

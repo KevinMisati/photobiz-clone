@@ -37,6 +37,10 @@ max-width: 800px;
 margin: 0 auto;
 padding-top: 20px;
 }
+.watch-video{
+    margin-top: 20px;
+    
+}
 .watch-video-text{
 line-height: 30px;
 margin: 10px auto;
@@ -45,6 +49,7 @@ letter-spacing: 4px;
 font-size: 15px;
 font-weight: 500;
 color: #7d8995;
+
 }
 .img-container img{
 cursor: pointer;
@@ -54,4 +59,9 @@ display: inline-block;
 position: relative;
 padding-left: 7px;
 top: 6px;
+}
+@media screen and (max-width:767px){
+    .ad-title img{
+        width: 170px;
+    }
 }

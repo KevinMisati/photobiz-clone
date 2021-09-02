@@ -12,6 +12,7 @@ color: #2e3d4e;
     justify-content: center;
     align-items: center;
     padding: 25px 0 0  0;
+    margin-bottom: 10px;
 }
 .price-quote{
     display: flex;
@@ -103,7 +104,7 @@ main{
 .icons {
     width: auto;
  margin: 0 auto;
-padding: 25px 0px 0px;
+padding: 0px 0px 0px;
 margin-left: auto;
 text-align: right;
 display: flex;
@@ -118,7 +119,7 @@ flex-direction: column;
 }
 .icon{
     text-align: right;
-padding: 30px;
+padding: 25px;
 display: flex;
 flex-direction: column;
 }
@@ -131,7 +132,7 @@ flex-direction: column;
 }
 .icons img{
     
-    height: 50px;
+    height: 45px;
 }
 .icons span {
    
@@ -161,5 +162,12 @@ color: #7c8995;
 line-height: 30px;
 color: #7d8995;
 font-size: 12px;
+    }
+    .price-quote-container{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .price-quote-container button{
+        margin-top: 10px;
     }
 }
