@@ -1,0 +1,25 @@
+.description{
+    margin-top: 40px;
+     text-align: center;
+     font-family: Brandon;
+     line-height: 30px;
+}
+.description h1{
+font-weight: 100;
+font-size: 40px;
+color: #303d4c;
+}
+.description h3{
+font-family: gotham;
+margin: 10px auto;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size: 15px;
+font-weight: 500;
+color: #7d8995;
+}
+.description p{
+color: #777;
+max-width: 900px;
+margin: 0 auto 10px;
+}

@@ -1,0 +1,35 @@
+.templates-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 0px;
+}
+.templates{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.template{
+    width: auto;
+    margin: 30px;
+    
+    }
+    .template h3{
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-family: Brandon;
+    }
+    .img-container{
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+        width: 440px;
+        object-fit: contain;
+    }
+    .img-container img{
+        width: 100%;
+       
+    }

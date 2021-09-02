@@ -1,0 +1,128 @@
+.form-container{
+    font-family: Brandon;
+    flex: none;
+    width: 100%;
+    padding-bottom: 80px;
+    background: #4D5B6D !important;
+    color: #fff;
+    display: flex;
+}
+.title{
+    float: left;
+}
+.payment-form-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+   
+   width: 100%;
+   max-width: 1200px; 
+    margin: 0 auto;
+    padding: 30px;
+}
+.input-control{
+padding: 15px 0;
+/* width: 300px; */
+border-bottom: 0;
+padding-bottom: 0;
+}
+
+
+/* left section side/upper section */
+.left-side{
+   /*  margin-right: 35px; */
+}
+.left-side .input-control{
+    margin: 40px 0px;
+}
+
+.package h2{
+font-weight: 400;
+font-size: 1.7rem;
+margin-bottom: 8px;
+text-align: left;
+}
+.package p{
+line-height: 30px;
+text-align: left;
+}
+.promo p{
+    text-align: left;
+}
+.price label{
+    display: block;
+    flex-direction: column;
+}
+.total p {
+font-weight: 400;
+font-size: 1.4rem;
+margin: 35px 0 0;
+clear: both;
+text-align: left;
+}
+.next p {
+line-height: 30px;
+margin: 0 0 3px;
+text-align: left;
+
+}
+/* right section,second section */
+.right-side{
+    /* margin-left: 35px; */
+}
+.right-side .input-control{
+    text-align: left;
+}
+.right-side input {
+font-family: inherit;
+border: 1px solid #ddd;
+max-width: 100%;
+margin-top: 4px;
+width: 600px;
+font-size: 1.8rem;
+padding: 6px;
+}
+.right-side .input-control label{
+    display: flex;
+    flex-direction: column;
+}
+.input-control span{
+    text-align: left;
+
+}
+.terms input{
+    width: 20px;
+}
+.terms label{
+    flex-direction: row !important;
+    flex: 1 !important;
+  
+}
+.terms span{
+    display: inline;
+}
+.recaptcha{
+    margin: 10px 0px 20px 0px !important;
+}
+.btn-container{
+    text-align: left !important;
+}
+.input-control button{
+text-transform: uppercase;
+display: inline-block;
+position: relative;
+white-space: nowrap;
+cursor: pointer;
+background-color: #7d8995;
+transition: background-color .2s;
+letter-spacing: 2px;
+padding: 1.2em 1.2em 1em;
+font-size: 17px;
+color: #fff;
+margin-top: 0;
+outline: none;
+border: none;
+text-align: left;
+}
