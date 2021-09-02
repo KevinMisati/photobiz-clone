@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from "./Price.module.css"
-import EverythingIcons from "../Home/EverythingIcons"
+import {NavLink} from "react-router-dom"
+
 
 const Price = () => {
     return (
@@ -25,41 +26,62 @@ const Price = () => {
                 </div>
                 <main>
             <div className={classes.icons}>
+                        <NavLink to="/websites" className={classes.icon} activeClassName={classes.selected}>
+                        
+                                <img src="https://img.icons8.com/wired/64/000000/template.png" />
+                                <span>templates</span>
+                            </NavLink>
+                    
+                
+                        <div>
+                            
+                                <img src="https://img.icons8.com/ios/50/000000/blog.png" />
+                                <span>blog</span>
+                    
+                    
+                        </div>
+                        <div>
+                           
+                                <img src="https://img.icons8.com/ios/50/000000/image.png" />
+                                <span>proofing</span>
+                   
+                   
+                        </div>
                 <div>
-                    <img src="https://img.icons8.com/wired/64/000000/template.png" />
-                    <span>templates</span>
-                </div>
-                <div>
-                    <img src="https://img.icons8.com/ios/50/000000/blog.png" />
-                    <span>blog</span>
-                </div>
-                <div>
-                    <img src="https://img.icons8.com/ios/50/000000/image.png" />
-                    <span>proofing</span>
-                </div>
-                <div>
-                    <img src="https://img.icons8.com/dotty/80/000000/shopping-cart.png" />
-                    <span>ecommerce</span>
+                           
+                                <img src="https://img.icons8.com/dotty/80/000000/shopping-cart.png" />
+                                <span>ecommerce</span>
+                   
+                    
                 </div>
                 
                     <div>
-                        <img src="https://img.icons8.com/ios/50/000000/paper-plane.png" />
+                       
+                            <img src="https://img.icons8.com/ios/50/000000/paper-plane.png" />
                         <span>promotions</span>
+                        
+                        
                </div>
-                
-                
-                
                 <div>
-                    <img src="https://img.icons8.com/dotty/50/000000/google-forms.png" />
-                    <span>forms</span>
+                           
+                                <img src="https://img.icons8.com/dotty/50/000000/google-forms.png" />
+                                <span>forms</span>
+                   
+                   
                 </div>
                 <div>
-                    <img src="https://img.icons8.com/ios/80/000000/view-shedule.png" />
-                    <span>scheduler</span>
+                            
+                                <img src="https://img.icons8.com/ios/80/000000/view-shedule.png" />
+                                <span>scheduler</span>
+                    
+                    
                 </div>
                 <div>
-                    <img src="https://img.icons8.com/ios/50/000000/load-balancer.png" />
-                    <span>hosting {"&"} ssl</span>
+                            
+                                <img src="https://img.icons8.com/ios/50/000000/load-balancer.png" />
+                                <span>hosting {"&"} ssl</span>
+                    
+                    
                 </div>
 
             </div>

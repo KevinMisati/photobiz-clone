@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from "./Header.module.css"
-import {Link} from  "react-router-dom"
+import {Link,NavLink} from  "react-router-dom"
 
 const Header = () => {
     return (
@@ -13,7 +13,7 @@ const Header = () => {
                 </div>
                 <ul className={classes["nav-items"]}>
                     <li>
-                       <Link to="/websites"> websites </Link>
+                       <NavLink activeClassName={classes.selected} to="/websites"> websites </NavLink>
                     </li>
                    <li>proofing</li>
                    <li>jumpstart</li>
