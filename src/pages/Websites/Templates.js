@@ -10,7 +10,7 @@ const Websites = () => {
     return (
         <div className={classes["websites-container"]}>
             <div className={classes.websites}>
-                <Prices />
+               
                 <Description />
                 <Samples />
                 <JumpStartAd />

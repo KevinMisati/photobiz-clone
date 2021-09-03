@@ -1,0 +1,22 @@
+.btn-container{
+    padding: 20px 0px;
+}
+.btn-container button {
+cursor: pointer;
+background-color: #7d8995;
+transition: background-color .2s;
+letter-spacing: 2px;
+padding: 1.2em 1.2em 1em;
+font-size: 14px;
+color: #fff;
+position: relative;
+margin: 0 0 0 15px;
+display: inline-block;
+border: none;
+outline: none;
+text-transform: uppercase;
+
+}
+.btn-container{
+    padding: 10px 0;
+}

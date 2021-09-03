@@ -1,9 +1,10 @@
 import React from 'react'
 import classes from "./Price.module.css"
-import {NavLink} from "react-router-dom"
+import { NavLink, useRouteMatch} from "react-router-dom"
 
 
 const Price = () => {
+    let { path, url } = useRouteMatch();
     return (
         <div className={classes["prices-container"]}>
             <div className={classes.prices}>
@@ -26,19 +27,30 @@ const Price = () => {
                 </div>
                 <main>
             <div className={classes.icons}>
-                        <NavLink to="/websites" className={classes.icon} activeClassName={classes.selected}>
+                        <NavLink exact={true} to={`${url}`} className={classes.icon} activeClassName={classes.selected}>
                         
                                 <img src="https://img.icons8.com/wired/64/000000/template.png" />
                                 <span>templates</span>
                             </NavLink>
                     
                 
-                        <div>
+                        <NavLink to={`${url}/hosting`} className={classes.icon} activeClassName={classes.selected}>
                             
-                                <img src="https://img.icons8.com/ios/50/000000/blog.png" />
-                                <span>blog</span>
+                            
+
+                                <img src="https://img.icons8.com/ios/50/000000/load-balancer.png" />
+                                <span>hosting {"&"} ssl</span>
+
+
+                        
+                            
+                                
                     
                     
+                        </NavLink>
+                        <div>
+                            <img src="https://img.icons8.com/ios/50/000000/blog.png" />
+                            <span>blog</span>
                         </div>
                         <div>
                            
@@ -76,13 +88,7 @@ const Price = () => {
                     
                     
                 </div>
-                <div>
-                            
-                                <img src="https://img.icons8.com/ios/50/000000/load-balancer.png" />
-                                <span>hosting {"&"} ssl</span>
-                    
-                    
-                </div>
+               
 
             </div>
             </main>
