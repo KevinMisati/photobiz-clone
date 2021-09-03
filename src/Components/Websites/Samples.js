@@ -7,17 +7,17 @@ const samples = [
         img: "https://photobiz.com/content/images/corporate/photobiz/samples/sample_p_adams.jpg",
     },
     {
-        id: 1,
+        id: 2,
         title: "harper",
         img: "https://photobiz.com/content/images/corporate/photobiz/samples/sample_p_harper.jpg",
     },
     {
-        id: 1,
+        id: 3,
         title: "francis",
         img: "https://photobiz.com/content/images/corporate/photobiz/samples/sample_p_francis.jpg",
     },
     {
-        id: 1,
+        id: 4,
         title: "kipling",
         img: "https://photobiz.com/content/images/corporate/photobiz/samples/sample_p_francis.jpg",
     },

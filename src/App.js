@@ -13,10 +13,10 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div class="large-screen">
+        <div className="large-screen">
           <Header />
         </div>
-        <div class="small-screen">
+        <div className="small-screen">
           <MobileHeader />
         </div>
 
