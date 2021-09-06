@@ -34,8 +34,10 @@ const MobileHeader = () => {
             <div data-aria-expanded="true" aria-hidden="true" className={`${classes["nav-open-container"]} ${navIsOpen ? "" : classes["nav-toggle"] }`}>
                 <div className={classes["nav-open"]}>
                     <header >
-                        <div className={classes["logo-container"]}>
+                        <div onClick={closeNav} className={classes["logo-container"]}>
+                            <Link to="/">
                             <img src="https://photobiz.com/content/corporate/photobiz/images/photobiz_minimal_logo.png" alt="logo" />
+                            </Link>
                         </div>
                         <div onClick={closeNav} className={` ${classes.hurmbuger} ${classes["hurmbuger-close"]}`}>
                             <div className={classes.line1}></div>
@@ -59,7 +61,7 @@ const MobileHeader = () => {
                     <div className={classes["nav-items-container"]}>
                         <ul>
                             <li>
-                                <NavLink activeClassName={classes.selected} to="/websites">
+                                <NavLink onClick={closeNav} activeClassName={classes.selected} to="/websites">
                                 websites
                                 </NavLink>
                             </li>
