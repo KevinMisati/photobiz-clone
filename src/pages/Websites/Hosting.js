@@ -3,6 +3,7 @@ import classes from "./Hosting.module.css"
 import Title from "../../Components/Websites/Title"
 import Button from "../../Components/Websites/Button"
 import Advantage from "../../Components/Websites/Advantage"
+import Card from "../../Components/Websites/Card"
 
 const Blog = () => {
     return (
@@ -29,6 +30,31 @@ const Blog = () => {
                     btnText="learn more"
                     reverseDirection={true}
                 />
+
+                <Card>
+                    <div className={classes.icons}>
+                        <div>
+                            <img src="https://img.icons8.com/ios/50/000000/paper-plane.png" />
+                            <span>#1 FASTEST <br/> HOSTING</span>
+                        </div>
+
+
+
+                        <div>
+                            <img src="https://img.icons8.com/dotty/50/000000/google-forms.png" />
+                            <span>SSL <br/> SECURITY</span>
+                        </div>
+                        <div>
+                            <img src="https://img.icons8.com/ios/80/000000/view-shedule.png" />
+                            <span>99.99% <br/> UPTIME</span>
+                        </div>
+                        <div>
+                            <img src="https://img.icons8.com/ios/50/000000/load-balancer.png" />
+                            <span>5000 FILES</span>
+                        </div>
+
+                    </div>
+                </Card>
 
                 <Advantage
                     img="https://photobiz.com/content/images/corporate/photobiz/graphics/domains/Domain_Email_Top_Image.jpg"
@@ -59,6 +85,12 @@ const Blog = () => {
                     btnText="download our sample gallery"
                     reverseDirection={false}
                 />
+
+                <Card>
+                    <h2>Increase your file storage as you go</h2>
+                    <p>Need more than 5,000 files? No problem. You can increase your file storage in increments of 5,000, 15,000, 20,000, 50,000 or 100,000 files to add as many files as you need. PhotoBiz is built to scale with your business. We use transparent pricing, so you know exactly how much space you get.
+</p>
+                </Card>
                 
                
                 

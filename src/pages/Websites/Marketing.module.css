@@ -1,0 +1,54 @@
+.reach-customers-container{
+    font-family: Brandon;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+text-align: center;
+overflow: hidden;
+max-width: 78%;
+margin: 0px  auto 40px auto;
+padding: 85px 100px 100px;
+
+text-align: center;
+}
+.reach-customers{
+color: #000;
+max-width: 1130px;
+display: block;
+padding: 0 25px;
+margin: 0 auto;
+}
+.reach-customers p{
+    color: #777;
+    line-height: 30px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.reach-customers h2{
+    box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+margin: 0;
+font-weight: 100;
+font-size: 40px;
+color: #303d4c;
+margin-bottom: 10px;
+}
+.reach-customers h3{
+    line-height: 30px;
+margin-top: 25px;
+font-size: 1.1rem;
+text-align: center;
+line-height: 30px;
+margin: 10px auto;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size: 15px;
+font-weight: 100;
+color: #7d8995;
+}
+.prices{
+    display: flex;
+    justify-content: space-around;
+}

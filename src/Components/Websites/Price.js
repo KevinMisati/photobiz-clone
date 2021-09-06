@@ -40,55 +40,61 @@ const Price = () => {
 
                                 <img src="https://img.icons8.com/ios/50/000000/load-balancer.png" />
                                 <span>hosting {"&"} ssl</span>
-
-
-                        
-                            
-                                
-                    
-                    
                         </NavLink>
-                        <div>
-                            <img src="https://img.icons8.com/ios/50/000000/blog.png" />
-                            <span>blog</span>
-                        </div>
-                        <div>
+                        <NavLink exact={true} to={`${url}/blog`} className= {classes.icon} activeClassName={classes.selected}>
+                                <img src="https://img.icons8.com/ios/50/000000/blog.png" />
+                                <span>blog</span>
+                        </NavLink>
+                        <NavLink exact={true} to={`${url}/seo`} className= {classes.icon} activeClassName={classes.selected}>
+
+                            <img src="https://img.icons8.com/ios-filled/50/000000/performance-smartphone.png" />
+                            <span>seo</span>
+
+
+                        </NavLink>
+                        <NavLink exact={true} to={`${url}/proofing`} className= {classes.icon} activeClassName={classes.selected}>
                            
                                 <img src="https://img.icons8.com/ios/50/000000/image.png" />
                                 <span>proofing</span>
                    
                    
-                        </div>
-                <div>
+                        </NavLink>
+               <NavLink exact={true} to={`${url}/ecommerce`} className= {classes.icon} activeClassName={classes.selected}>
                            
                                 <img src="https://img.icons8.com/dotty/80/000000/shopping-cart.png" />
                                 <span>ecommerce</span>
                    
                     
-                </div>
+                        </NavLink>
                 
-                    <div>
+                    <NavLink exact={true} to={`${url}/forms`} className= {classes.icon} activeClassName={classes.selected}>
                        
+                            <img src="https://img.icons8.com/dotty/50/000000/google-forms.png" />
+                            <span>forms</span>
+                        
+                        
+                        </NavLink>
+                        <NavLink exact={true} to={`${url}/scheduler`} className= {classes.icon} activeClassName={classes.selected}>
+
+                            <img src="https://img.icons8.com/ios/80/000000/view-shedule.png" />
+                            <span>scheduler</span>
+
+
+                        </NavLink>
+
+                        <NavLink exact={true} to={`${url}/marketing`} className= {classes.icon} activeClassName={classes.selected}>
                             <img src="https://img.icons8.com/ios/50/000000/paper-plane.png" />
-                        <span>promotions</span>
-                        
-                        
-               </div>
-                <div>
+                            <span>marketing</span>
                            
-                                <img src="https://img.icons8.com/dotty/50/000000/google-forms.png" />
-                                <span>forms</span>
+                               
                    
                    
-                </div>
-                <div>
-                            
-                                <img src="https://img.icons8.com/ios/80/000000/view-shedule.png" />
-                                <span>scheduler</span>
-                    
-                    
-                </div>
-               
+                        </NavLink>
+                        <NavLink exact={true} to={`${url}/support`} className={classes.icon} activeClassName={classes.selected}>
+                            <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/50/000000/external-support-advertising-kiranshastry-lineal-kiranshastry.png" />
+                            <span>support</span>
+                        </NavLink>
+                
 
             </div>
             </main>

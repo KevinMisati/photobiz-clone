@@ -1,0 +1,50 @@
+
+.icons {
+    width: auto;
+ margin: 0 auto;
+padding: 25px 0px 30px;
+margin-left: auto;
+text-align: right;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+.icons>div{/* targeting the icon container class */
+    flex: 33%;
+}
+.icons>div>div{/*targeting the div inside the icon container which is directly holfing the elements to be displayed  */
+text-align: right;
+padding: 30px 50px;
+display: flex;
+flex-direction: column;
+height: auto;
+}
+.icons img{
+   height: 70px; 
+   width: auto;
+}
+.icons span {
+   
+text-align: center;
+cursor: pointer;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+margin: 0;
+transition: opacity 0.35s, transform 0.35s;
+width: 100%;
+transform: translate3d(0,20px,0);
+text-transform: lowercase;
+letter-spacing: 2px;
+font-size: 22px;
+color: #7c8995;
+
+}
+@media screen and (max-width:767px){
+    .icons-container h3{
+      
+line-height: 30px;
+color: #7d8995;
+font-size: 12px;
+    }
+}

@@ -1,0 +1,56 @@
+.banner1{
+    background:url();
+}
+.card-container{
+    font-family: Brandon;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+text-align: center;
+overflow: hidden;
+max-width: 78%;
+margin: 0px  auto 40px auto;
+
+text-align: center;
+}
+.card{
+color: #fff;
+width: 100%;
+max-width: 1130px;
+display: block;
+padding: 0 25px;
+margin: 20px auto;
+
+}
+.card1{
+    background: url("https://photobiz.com/content/images/corporate/photobiz/graphics/support/Support_Hub_BG.png") center/cover;
+}
+.card2{
+    background: url("https://photobiz.com/content/images/corporate/photobiz/graphics/support/Support_Growth_Hub_Photo.jpg") center/cover;
+}
+.card p{
+    line-height: 30px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.card h2{
+ 
+font-weight: 100;
+font-size: 40px;
+margin-bottom: 10px;
+}
+.card h3{
+    line-height: 30px;
+margin-top: 25px;
+font-size: 1.1rem;
+text-align: center;
+line-height: 30px;
+margin: 10px auto;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size: 15px;
+font-weight: 100;
+
+}
