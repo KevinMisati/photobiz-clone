@@ -13,8 +13,7 @@ const Websites = () => {
                
                 <Description />
                 <Samples />
-                <JumpStartAd />
-                <FinishingTouches />
+                
             </div>
 
         </div>

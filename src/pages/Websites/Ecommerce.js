@@ -114,8 +114,7 @@ const Ecommerce = () => {
                 <h2>Work with the best</h2>
                 <p>Your payments are completely secure and process instantly using the online merchant of your choice: Stripe, Square, Paypal, Authorize.net, Itransact, Payflow Pro, or PayJunction.</p>
             </Card>
-            <JumpstartAd />
-            <FinishingTouch />
+            
         </div>
     )
 }

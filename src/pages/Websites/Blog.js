@@ -47,8 +47,7 @@ const Blog = () => {
                 reverseDirection={false}
             />
 
-            <JumpstartAd />
-            <FinishingTouch />
+            
             
         </div>
     )

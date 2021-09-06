@@ -103,8 +103,7 @@ const Proofing = () => {
                 showBtn={false}
                 reverseDirection={true}
             />
-            <JumpstartAd />
-            <FinishingTouch />
+            
         </div>
     )
 }

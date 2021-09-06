@@ -62,7 +62,7 @@ const Seo = () => {
                 <WatchButton />
             </Card>
 
-            <FinishingTouches />
+            
         </div>
     )
 }
