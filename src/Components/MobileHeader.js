@@ -1,5 +1,7 @@
 import React,{useState} from 'react'
 import classes from "./MobileHeader.module.css"
+import { Link, NavLink } from "react-router-dom"
+
 const MobileHeader = () => {
     const [navIsOpen, setNavIsOpen] = useState(false)
     const openNav = () => {
@@ -17,8 +19,10 @@ const MobileHeader = () => {
         <div className={classes["mobile-header-container"]}>
             <div className={classes["mobile-header"]}>
                
-                    <div className={classes["logo-container"]}>
+                <div className={classes["logo-container"]}>
+                    <Link to="/">
                         <img src="https://photobiz.com/content/corporate/photobiz/images/photobiz_minimal_logo.png" alt="logo" />
+                    </Link>
                     </div>
                   
                 <div onClick={openNav} className={classes.hurmbuger}>
@@ -54,7 +58,11 @@ const MobileHeader = () => {
                     </div>
                     <div className={classes["nav-items-container"]}>
                         <ul>
-                            <li>websites</li>
+                            <li>
+                                <NavLink activeClassName={classes.selected} to="/websites">
+                                websites
+                                </NavLink>
+                            </li>
                             <li>proofing</li>
                             <li>jumpstart</li>
                             <li>pricing</li>
