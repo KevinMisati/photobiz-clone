@@ -76,6 +76,10 @@ margin-top: 20px;
         padding: 20px;
         
     }
+    .img-container{
+        margin: 0px;
+        
+    }
     .product-price-large{
         display: none !important;
     }
@@ -86,5 +90,13 @@ margin-top: 20px;
     }
     .product button{
         margin-top: 10px;
+    }
+    .product-price-small{
+        font-size: 16px;
+    }
+    .product button{
+        font-size: 10px;
+        padding: 10px 15px;
+        margin: 0px;
     }
 }

@@ -1,7 +1,5 @@
 .card-container{
     font-family: Brandon;
-box-sizing: border-box;
--webkit-font-smoothing: antialiased;
 text-align: center;
 overflow: hidden;
 max-width: 78%;
@@ -47,4 +45,22 @@ letter-spacing: 4px;
 font-size: 15px;
 font-weight: 100;
 color: #7d8995;
+}
+@media screen and (max-width:767px){
+    .card-container{
+        margin: 20px;
+        padding: 0px;
+        margin-bottom: 20px;
+        width: calc( 100% - 40px );
+        max-width: calc( 100% - 40px );
+    }
+    .card{
+        padding: 20px;
+    }
+    .card h2{
+        font-size: 25px;
+    }
+    .card h3{
+        font-size: 23px;
+    }
 }

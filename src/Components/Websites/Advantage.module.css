@@ -32,19 +32,13 @@ max-width: 600px;
 }
 .text h3 {
     text-align: left;
-box-sizing: border-box;
--webkit-font-smoothing: antialiased;
-font-family: gotham;
 margin: 10px auto;
 text-transform: uppercase;
 letter-spacing: 4px;
-font-size: 15px;
 font-weight: 100;
 color: #7d8995;
     font-family: Brandon;
 text-align: left;
-box-sizing: border-box;
--webkit-font-smoothing: antialiased;
 color: #000;
 font-size: 1.5rem;
 margin: 20px 0 8px;
@@ -88,5 +82,10 @@ color: #777;
         width: 100%;
         margin-bottom: 20px;
     }
-  
+  .text h3{
+    font-size: 20px;
+  }
+  .text p{
+      font-size: 1rem;
+  }
 }

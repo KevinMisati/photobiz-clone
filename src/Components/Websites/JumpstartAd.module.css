@@ -1,7 +1,5 @@
 .jumpstart-ad-container{
     font-family: Brandon;
-box-sizing: border-box;
--webkit-font-smoothing: antialiased;
 text-align: center;
 overflow: hidden;
 max-width: 78%;
@@ -61,6 +59,15 @@ padding-left: 7px;
 top: 6px;
 }
 @media screen and (max-width:767px){
+    .jumpstart-ad-container{
+        padding: 20px;
+        margin: 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .jumpstart-ad{
+        padding: 0px;
+    }
     .ad-title img{
         width: 170px;
     }
