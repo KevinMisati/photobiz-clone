@@ -20,6 +20,7 @@ padding-top: 50px;
     justify-content: center;
     text-align: left;
     align-items: center;
+    
 }
 .currency-sign{
    align-self: flex-start;
@@ -39,9 +40,7 @@ margin-left: 4px;
 font-size: 13px;
 letter-spacing: 1.3px;
 }
-.prices{
 
-}
 .btn-container button {
 cursor: pointer;
 background-color: #7d8995;
@@ -69,101 +68,10 @@ font-size: 20px;
     color: #00C5D4;
 }
 
-/* all icons */
-.icons-container{
-font-family: Brandon;
-text-align: center;
-color: #000;
-display: block;
-padding: 0 25px;
-margin: 0 auto;
-max-width: 100%;
-background: #f8f8f8;
-padding: 1px 0px 20px;
-}
-.icons-container header{
-    text-align: center;
-    display: flex;
-    justify-content: center !important;
-}
-.icons-container h3{
-color: #777;
-line-height: 30px;
-margin-top: 25px;
-font-size: 1.1rem;
-text-align: center;
-letter-spacing: 2px;
-}
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-   
-}
-.icons {
-    width: auto;
- margin: 0 auto;
-padding: 0px 0px 0px;
-margin-left: auto;
-text-align: right;
-display: flex;
-align-items: center;
-overflow-x: auto;
-}
-.icons>div{
-text-align: right;
-padding: 30px;
-display: flex;
-flex-direction: column;
-}
-.icon{
-    text-align: right;
-padding: 25px;
-display: flex;
-flex-direction: column;
-}
-.icons a{
-display: flex;
-flex-direction: column;
-}
-.icons .selected{
-    color: aqua !important;
-}
-.icons img{
-    
-    height: 45px;
-}
-.icons span {
-   
-text-align: center;
-cursor: pointer;
-box-sizing: border-box;
--webkit-font-smoothing: antialiased;
-margin: 0;
-transition: opacity 0.35s, transform 0.35s;
-width: 100%;
-transform: translate3d(0,20px,0);
-text-transform: lowercase;
-letter-spacing: 2px;
-font-size: 11px;
-color: #7c8995;
 
-}
-.selected{
-    background: #fff;
-}
- .selected span{
-    color: aqua !important;
-}
+
 @media screen and (max-width:767px){
-    .icons-container h3{
-      
-line-height: 30px;
-color: #7d8995;
-font-size: 12px;
-    }
+   
     .price-quote-container{
         flex-direction: column;
         padding-top: 50px;

@@ -1,0 +1,67 @@
+
+.icons {
+    width: auto;
+ margin: 0 auto;
+padding: 0px 0px 0px;
+text-align: right;
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 45px;
+z-index: 50;
+background: #f0f2f5;
+overflow-x: auto;
+}
+.icon{
+    text-align: right;
+padding: 25px;
+display: flex;
+flex-direction: column;
+}
+.icons a{
+display: flex;
+flex-direction: column;
+}
+.icons .selected{
+    color: aqua !important;
+}
+.icons img{
+    
+    height: 45px;
+}
+.icons span {
+   
+text-align: center;
+cursor: pointer;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+margin: 0;
+transition: opacity 0.35s, transform 0.35s;
+width: 100%;
+transform: translate3d(0,20px,0);
+text-transform: lowercase;
+letter-spacing: 2px;
+font-size: 11px;
+color: #7c8995;
+
+}
+.selected{
+    background: #fff;
+}
+ .selected span{
+    color: aqua !important;
+}
+@media screen and (max-width:767px){
+   
+    .price-quote-container{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .price-quote-container button{
+        margin-top: 10px;
+    }
+    .icons{
+        top: 70px;
+    }
+}

@@ -3,17 +3,20 @@ import classes from "./Header.module.css"
 import {Link,NavLink} from  "react-router-dom"
 
 const Header = () => {
+    const moveScrollBarToTop = () => {
+        window.scrollTo(0, 0)
+    }
     return (
         <div className={classes["header-container"]} >
             <div className={classes.header}>
                 <div className={classes["logo-container"]}>
-                    <Link to="/">
+                    <Link onClick={moveScrollBarToTop} to="/">
                     <img src="https://photobiz.com/content/corporate/photobiz/images/photobiz_minimal_logo.png" alt="logo"/>
                     </Link>
                 </div>
                 <ul className={classes["nav-items"]}>
                     <li>
-                       <NavLink activeClassName={classes.selected} to="/websites"> websites </NavLink>
+                        <NavLink onClick={moveScrollBarToTop} activeClassName={classes.selected} to="/websites"> websites </NavLink>
                     </li>
                    <li>proofing</li>
                    <li>jumpstart</li>

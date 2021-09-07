@@ -14,13 +14,18 @@ const MobileHeader = () => {
         setNavIsOpen(false)
         document.documentElement.style.overflow = 'scroll';
         document.body.scroll = "yes";
+        window.scrollTo(0, 0)
+    }
+
+    const moveScrollBarToTop = () => {
+        window.scrollTo(0, 0)
     }
     return (
         <div className={classes["mobile-header-container"]}>
             <div className={classes["mobile-header"]}>
                
                 <div className={classes["logo-container"]}>
-                    <Link to="/">
+                    <Link onClick={moveScrollBarToTop} to="/">
                         <img src="https://photobiz.com/content/corporate/photobiz/images/photobiz_minimal_logo.png" alt="logo" />
                     </Link>
                     </div>
@@ -35,7 +40,7 @@ const MobileHeader = () => {
                 <div className={classes["nav-open"]}>
                     <header >
                         <div onClick={closeNav} className={classes["logo-container"]}>
-                            <Link to="/">
+                            <Link onClick={moveScrollBarToTop} to="/">
                             <img src="https://photobiz.com/content/corporate/photobiz/images/photobiz_minimal_logo.png" alt="logo" />
                             </Link>
                         </div>

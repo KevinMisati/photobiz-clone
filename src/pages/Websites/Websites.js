@@ -4,13 +4,15 @@ import WebsiteFooter from "../../Components/Websites/WebsiteFooter.js"
 import Templates from "./Templates"
 import JumpstartAd from "../../Components/Websites/JumpstartAd"
 import FinishingTouch from "../../Components/Websites/FinishingTouch"
+import { NavLink, useRouteMatch } from "react-router-dom"
+
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link,
     useParams,
-    useRouteMatch,
+   
     useLocation
 } from "react-router-dom";
 import Hosting from "./Hosting"
@@ -22,16 +24,21 @@ import Forms from "./Forms"
 import Scheduler from "./Scheduler"
 import Marketing from "./Marketing"
 import Support from "./Support"
+import PriceIcons from "../../Components/Websites/PriceIcons"
 
 import Price from "../../Components/Websites/Price"
 
 const Websites = ({ShowFinishingTouch=true}) => {
     let location = useLocation();
     let { path, url } = useRouteMatch();
+    
     return (
         <div className={classes["websites-container"]}>
             <div className={classes.websites}>
                 <Price />
+                <PriceIcons />
+               
+           
                 <Router>
                     <Switch location={location}>
                         <Route exact ={true} path={`${path}/hosting`} >
