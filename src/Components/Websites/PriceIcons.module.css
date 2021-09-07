@@ -62,6 +62,7 @@ color: #7c8995;
         margin-top: 10px;
     }
     .icons{
+        justify-content: stretch;
         top: 70px;
     }
 }
